@@ -6,54 +6,84 @@
   }
 
   .calculator-body {
-    height: 300px;
-    width: 250px;
-    background-color: #3d3d5c;
+    width: 30%;
+    height: 470px;
+    background-color: lightgreen;
     margin: 20px auto;
+    border: 1px solid gray;
     border-radius: 10px;
     padding: 20px;
-    padding-top: 40px;
+    padding-top: 10px;
   }
-
+  
+  .brand{
+    color: white;
+    font:italic;
+    font-weight: bold;
+  }
   .screen {
-    background-color: #a1af77;
+    background-color: rgb(31, 66, 31);
+    color: white;
+    border: 1px solid grey;
+    border-radius: 15px;
     text-align: right;
-    width: 220px;
+    width: 90%;
     display: block;
     margin: 0 auto;
-    font-size: 25px;
+    font-size: 40px;
     padding: 5px 10px;
     margin-bottom: 20px;
     font-family: "DS-Digital Normal";
   }
 
   .buttons-container {
-    height: 200px;
+    height: 240px;
+  }
+  .row{
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
   }
-
-  .btn {
-    width: 50px;
-    text-align: center;
-    padding: 2px 0;
-    font-size: 20px;
-    margin: 3px;
-    border: 0.5px solid black;
-    border-radius: 5px;
-    cursor: pointer;
+  .bgcolor-yellow{
+    background-color: rgb(251, 255, 27);
+  }
+  .btn{
+    border-radius: 15px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: bold;
   }
 
-  .btn:hover {
-    box-shadow: 0 0 5px 0 white;
+  .btn:hover{
     transition: 0.3s;
+    box-shadow:0px 0px 10px 5px white;
+  }
+  .btn-long{
+    width :70px;
   }
 
-  .btn-equalto {
-    background-color:red;
-    height: 70px;
-    color: #fff;
+  .btn-round{
+    color: green;
+    border:2px solid darkgreen;
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 20px;
+  }
+  .btn-square{
+    font-size: 40px;
+    color: white;
+    background-color: greenyellow;
+    border-radius: 5px;
+    width: 60px;
+    padding: 10px;
+  }
+  .operator{
+    color: green;
+  }
+  .equalto{
+    text-align: center;
+    width:30%;
+    font-size: 30px;
+    color: green;
   }
